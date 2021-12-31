@@ -26,9 +26,9 @@ appVersion: "5.7.33"
 
 kubeVersion: ">=1.17.0-0"
 sources:
-- https://github.com/radondb/xenondb
+- https://github.com/radondb/radondb-mysql-kubernetes
 keywords:
-- xenondb
+- radondb
 - MySQL HA
 - database
 - kubernetes
@@ -52,3 +52,5 @@ maintainers:
 icon: https://xenondb.pek3b.qingstor.com/icons/radondb-mysql.svg
 annotations:
   "app.kubesphere.io/category": "Database & Cache"
+  "app.kubesphere.io/introduction-zh": "当前版本为 RadonDB MySQL Helm v1.0.0 版本，已停止维护。建议您选用最新 Operator 版本，安装指导请参见: https://github.com/radondb/radondb-mysql-kubernetes#quick-start"
+  "app.kubesphere.io/introduction-en": "The current version is RadonDB MySQL Helm v1.0.0, which is no longer maintained. We recommend you to use the latest Operator version, please refer to: https://github.com/radondb/radondb-mysql-kubernetes#quick-start"
